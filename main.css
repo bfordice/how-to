@@ -74,7 +74,7 @@ section li{
 	padding-bottom: .35em;
 }
 section h1{
-	color:black;
+	color:#456166;
 }
 a:hover {
 	font-style: italic
@@ -107,25 +107,8 @@ aside img{
 #section-bottom{
 	border-bottom: 2px solid #456166;
 }
-#dinosaur{
-	float:right;
-	border: 1px solid black;
-	margin-left: 1em;
-	margin-bottom: 1em;
-	margin-top: 1em;
-}
-figure{
-	float:left;
-	margin-right: 1.5em;
-	text-align:center;
-}
-figcaption{
-	display:block;
-	font-weight: bold;
-	padding-top: .25em;
-	margin-bottom: 1em;
-	
-}
+
+
 #nav_menu ul {
 	list-style-type: none;
 	margin: 0;
@@ -227,4 +210,7 @@ tfoot th, tfoot td {
 }
 .right {
 	text-align: right;
+}
+aside img {
+	float: left;
 }
