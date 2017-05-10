@@ -6,7 +6,7 @@ html{
 	background-color: white;
 }
 body {
-	font-family: 'Pacifico', cursive;
+font-family: Arial, Helvetica, sans-serif;
     font-size: 100%;
     width: 950px;
     margin-top: 0;
@@ -51,7 +51,6 @@ section {
 	padding-left: 2em;
 	padding-right: 2em;
 	width: 525px;
-	float:right;
 	padding-left: 20px;
 	padding-right: 20px;
 }
@@ -74,7 +73,7 @@ section li{
 	padding-bottom: .35em;
 }
 section h1{
-	color:black;
+	color:#456166;
 }
 a:hover {
 	font-style: italic
@@ -91,6 +90,7 @@ aside{
 	width: 215px;
 	float:left;
 	padding-left: 20px;
+		float:left;
 }
 aside h1 { font-size: 120%; 
 	padding-bottom: .25em;
@@ -100,6 +100,8 @@ aside h3{
 }
 aside img{
 	padding-bottom: 1em;
+	padding-top: 1em;
+	float: left;
 }
 #section-top{
 	border-top: 2px solid #456166;
@@ -107,25 +109,7 @@ aside img{
 #section-bottom{
 	border-bottom: 2px solid #456166;
 }
-#dinosaur{
-	float:right;
-	border: 1px solid black;
-	margin-left: 1em;
-	margin-bottom: 1em;
-	margin-top: 1em;
-}
-figure{
-	float:left;
-	margin-right: 1.5em;
-	text-align:center;
-}
-figcaption{
-	display:block;
-	font-weight: bold;
-	padding-top: .25em;
-	margin-bottom: 1em;
-	
-}
+
 #nav_menu ul {
 	list-style-type: none;
 	margin: 0;
@@ -167,9 +151,7 @@ figcaption{
     clear: both;
     display: block;
 }
-main {
-	clear: left;
-}
+
 section {
 	width: 525px;
 	float: right;
@@ -199,29 +181,7 @@ section ul {
 section li {
 	padding-bottom: .35em;
 }
-figure {
-	margin-top: .5em;
-	margin-left: 0;
-}
-figcaption {
-	color: #456166;
-}
 
-table {
-	border-collapse: collapse;
-}
-thead, tfoot {
-	border-top: 2px solid #456166;
-	border-bottom: 2px solid #456166;
-}
-th, td {
-	padding: .2em .7em;
-	text-align: left;
-}
-tfoot th, tfoot td {
-	text-align: right;
-	font-weight: bold;
-}
 .border_bottom {
 	border-bottom: 2px solid #456166;
 }
