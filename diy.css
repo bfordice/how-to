@@ -17,7 +17,7 @@ font-family: 'Pacifico', cursive;
     background-color: #fffded;
     height: 750px;
 } 
-header{
+header {
 	padding: 1.5em 1em 0;
 	border-bottom: 3px solid #456166;
 	background-image: -moz-linear-gradient(
@@ -172,8 +172,12 @@ section h2 {
 	font-size: 130%;
 	padding: .5em 0 .25em 0;
 }
+#font {
+	font-family:"Arial Black";
+}
 section p {
 	padding-bottom: .5em;
+	font: Arial;
 }
 section blockquote {
 	padding: 0 2em;
