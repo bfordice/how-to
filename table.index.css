@@ -17,6 +17,11 @@ font-family: 'Pacifico', cursive;
     background-color: #fffded;
     height: 750px;
 } 
+#nav_menu a.current {
+	background-color: white;
+	color:#456166;
+}
+
 header{
 	padding: 1.5em 1em 0;
 	border-bottom: 3px solid #456166;

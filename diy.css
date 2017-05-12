@@ -70,6 +70,10 @@ section ul{
 	padding-bottom: 1.5em;
 	padding-left: 1.25em;
 }
+#nav_menu a.current {
+	background-color: white;
+	color:#456166;
+}
 section li{
 	padding-bottom: .35em;
 }
@@ -174,6 +178,7 @@ section h2 {
 }
 #font {
 	font-family:"Arial Black";
+	
 }
 section p {
 	padding-bottom: .5em;

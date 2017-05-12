@@ -125,6 +125,12 @@ aside img{
 #nav_menu ul li {
 	float: left;
 }
+#nav_menu a.current {
+	background-color: white;
+	color:#456166;
+}
+
+
 #nav_menu ul li a {
     display: block;
     width: 160px;
