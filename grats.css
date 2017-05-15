@@ -17,9 +17,6 @@ font-family: 'Pacifico', cursive;
     background-color: #fffded;
     height: 750px;
 } 
-body h1 {
-	padding-left:.5em;
-}
 header {
 	padding: 1.5em 1em 0;
 	border-bottom: 3px solid #456166;
@@ -73,10 +70,6 @@ section ul{
 	padding-bottom: 1.5em;
 	padding-left: 1.25em;
 }
-#nav_menu a.current {
-	background-color: white;
-	color:#456166;
-}
 section li{
 	padding-bottom: .35em;
 }
@@ -86,7 +79,9 @@ section h1{
 a:hover {
 	font-style: italic
 }
-
+body h1 {
+	padding-left:.5em;
+}
 footer {
 	border-top: 3px solid #456166;
 	text-align: center;
@@ -114,6 +109,10 @@ aside img{
 	padding-bottom: 1em;
 	padding-top: 1em;
 	float: left;
+}
+#nav_menu a.current {
+	background-color: white;
+	color:#456166;
 }
 #section-top{
 	border-top: 2px solid #456166;
